@@ -7,6 +7,7 @@ i = 0
 line = [0] * size
 line[len(line) - 1] = 1
 
+#print all non-zero values in array
 def printarr(arr):
 	index = 0
 	while index < len(arr):
@@ -14,6 +15,7 @@ def printarr(arr):
 			print(arr[index]),
 		index += 1
 
+#update array values according to formula
 def updatearr(arr):
 	index = 0
 	while index < len(arr) - 1:
