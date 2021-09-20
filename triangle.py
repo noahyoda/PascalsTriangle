@@ -1,3 +1,6 @@
+#Author: noahyoda
+#version: 1.1
+
 print("how long is the triangle")
 size = input()
 i = 0
